@@ -2,4 +2,54 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  background: #000435;
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+  color: #f1c40f;
+}
+h3 {
+  color: #f4d03f;
+}
+#featured-property {
+  text-align: center;
+  display: block;
+}
+#featured-property > p {
+  text-align: center;
+  margin: auto;
+  width: 800px;
+}
+p , figcaption {
+  color: #f7dc6f;
+}
+figcaption {
+  font-size: smaller;
+}
+a {
+color: #B76E79;
+text-decoration: none;
+font-style: italic;
+}
+a:hover {
+  color: #f9e79f;
+  transition: 0.3s;
+}
+nav {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#details div {
+  background: #161c48;
+  float: left;
+  width: 25%;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#details div p h3 {
+  justify-content: center;
+  text-align: center;
 }
